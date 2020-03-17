@@ -6,16 +6,14 @@ if [ ! -f "./spellcheck.yaml" ]; then
     else
 	cp /spellcheck.yaml .
     fi
-elif
-
 fi
 
-if [ ! -f ./wordlist.txt ]; then
-    if [ -f "./.worldlist.txt" ]; then
+if [ ! -f "./wordlist.txt" ]; then
+    if [ -f "./.wordlist.txt" ]; then
 	cp ./.wordlist.txt wordlist.txt
     else
 	cp /wordlist.txt .
     fi
 fi
 
-pyspelling -c spellcheck.yaml
+pyspelling -vvvv -c spellcheck.yaml
