@@ -1,9 +1,9 @@
-name: 'Run PySpelling'
+name: 'Run PySpelling as a GitHub action'
 description: 'Run PySpelling on a repository to find spelling mistakes.'
-author: 'sbates130272 (forked from rojopolis'
+author: 'sbates130272'
 runs:
   using: 'docker'
   image: 'Dockerfile'
 branding:
   icon: 'zoom-in'
-  color: 'purple'
+  color: 'orange'
