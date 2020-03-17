@@ -10,7 +10,7 @@ repository owner.
 
 ## Usage
 
-To incorperate this action into your workflow carry out the following
+To incorporate this action into your workflow carry out the following
 steps:
 
 1. Create a `.spellcheck.yaml` configuration file in the top level of
@@ -45,6 +45,14 @@ jobs:
     - name: Run PySpelling as a GitHub action
       uses: sbates130272/spellcheck-github-actions@v0.6.0
 ```
+
+## Examples
+
+Several examples of spellcheck and wordlist files are included in the
+examples folder. Please feel free to use these by renaming them to
+`.spellcheck.yaml` and `.wordlist.txt` and placing them in the top
+level of your repository. Pull requests for new examples are welcome.
+
 [1]: https://github.com/marketplace?type=actions
 [2]: https://facelessuser.github.io/pyspelling/
 [3]: https://facelessuser.github.io/pyspelling/configuration/
