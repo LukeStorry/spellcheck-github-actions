@@ -1,0 +1,9 @@
+name: 'Run PySpelling"
+description: 'Run PySpelling on a repository to find spelling mistakes.'
+author: 'sbates130272 (forked from rojopolis'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'zoom-in'
+  color: 'purple'
